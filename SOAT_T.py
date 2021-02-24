@@ -21,8 +21,8 @@ st.set_page_config(page_title= "SOAT Crecer Seguros",layout="wide")
 
 
 ruta = 'Tarifario SOAT 202102.xlsx'
-t_digital = pd.read_excel(ruta,sheet_name= "TD_Crecer_M",header = 7, index_col =[0,1] )
-t_fisico = pd.read_excel(ruta,sheet_name= "TF_Crecer_M",header = 7, index_col =[0,1] )
+t_digital = pd.read_excel(ruta,sheet_name= "TD_Crecer_M",header = 7, index_col =[0,1],engine ='xlrd' )
+t_fisico = pd.read_excel(ruta,sheet_name= "TF_Crecer_M",header = 7, index_col =[0,1] ,engine ='xlrd')
 
 #,engine ='xlrd'
 
