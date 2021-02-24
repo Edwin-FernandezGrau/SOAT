@@ -35,30 +35,8 @@ departamento = departamento[2:]
 
 st.title(""" Tarifario SOAT """)
 
-
-
-
-#fi_departamento.insert(0,"DESCRIPCION")
-
-#bd = t_digital[t_digital.index.isin(fi_uso, level=0)]
-#bd = bd[bd.index.isin(fi_clase, level=1)]
-      
-#b1 = bd[fi_departamento]
  
 st.sidebar.header('Parametros')
-
-
-st.markdown(
-    """
-<style>
-.sidebar .sidebar-content {
-    background-image: linear-gradient("#0068c9","#0068c9");
-    color: white;
-}
-</style>
-""",
-    unsafe_allow_html=True,
-)
 
 
 def main():
