@@ -13,7 +13,7 @@ from PIL import Image
 
 st.set_page_config(page_title= "SOAT Crecer Seguros",layout="wide")
 
-image = Image.open('logo.png')
+image = Image.open('logo.PNG')
 
 st.sidebar.image(image, width = 300)
 
