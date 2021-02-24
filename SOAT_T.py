@@ -6,16 +6,16 @@ Created on Wed Feb 24 08:31:20 2021
 """
 import streamlit as st
 import pandas as pd
-#from PIL import Image
+from PIL import Image
 
 ############ titulo ###########
 
 
 st.set_page_config(page_title= "SOAT Crecer Seguros",layout="wide")
 
-#image = Image.open('logo.png')
+image = Image.open('logo.png')
 
-#st.sidebar.image(image, width = 300)
+st.sidebar.image(image, width = 300)
 
 
 
