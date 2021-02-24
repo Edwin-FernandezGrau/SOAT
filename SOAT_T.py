@@ -6,7 +6,7 @@ Created on Wed Feb 24 08:31:20 2021
 """
 import streamlit as st
 import pandas as pd
-from PIL import Image
+#from PIL import Image
 
 ############ titulo ###########
 
@@ -21,10 +21,10 @@ st.set_page_config(page_title= "SOAT Crecer Seguros",layout="wide")
 
 
 ruta = 'Tarifario SOAT 202102.xlsx'
-t_digital = pd.read_excel(ruta,sheet_name= "TD_Crecer_M",header = 7, index_col =[0,1] )
-t_fisico = pd.read_excel(ruta,sheet_name= "TF_Crecer_M",header = 7, index_col =[0,1] )
+t_digital = pd.read_excel(ruta,sheet_name= "TD_Crecer_M",header = 7, index_col =[0,1],engine ='openpyxl' )
+t_fisico = pd.read_excel(ruta,sheet_name= "TF_Crecer_M",header = 7, index_col =[0,1] ,engine ='openpyxl')
 
-#,engine ='xlrd'
+#,engine ='openpyxl'
 
 uso = list(t_digital.index.unique(0))
 
