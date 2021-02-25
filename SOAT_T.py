@@ -75,7 +75,7 @@ def main():
         
         fi_clase = st.multiselect("Seleccione la CLASE",clase ,clase)
         
-        fi_departamento = st.multiselect("Seleccione la DEPARTAMENTO", departamento, departamento[:12])                
+        fi_departamento = st.multiselect("Seleccione la DEPARTAMENTO", departamento, departamento[:10])                
         
         
         
