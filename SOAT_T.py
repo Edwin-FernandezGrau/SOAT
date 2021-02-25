@@ -116,7 +116,7 @@ def main():
         bf =  t_fisico1.reset_index(level = "llave" , drop = True) 
         bf = bf[bf.index.isin(fi_uso, level=0)]
         bf = bf[bf.index.isin(fi_clase, level=1)]
-        bf.dropna()
+        bf = bf.dropna()
         st.dataframe( bf[fi_departamento], width=1600, height=600)
     
         st.markdown('---')
