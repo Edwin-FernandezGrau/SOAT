@@ -81,9 +81,9 @@ def main():
         
         st.markdown(""" **Riesgo /1** : Daewoo Tico, Daewoo Matiz, Suzuki Maruti, Hyundai Stellar, Hyundai i10, Hyundai EON,
                     Suzuki Alto, Suzuki Celerio, Chevroler Spark, Chevrolet Aveo, Chevrolet Sail, Toyota Starlet, Reanult Logan, 
-                    Toyota Yaris, Kia Picanto y todos los modelos no disponibles en el catalogo vigente. """)    
+                    Toyota Yaris, Toyota Corolla, Kia Picanto y todos los modelos no disponibles en el catalogo vigente. """)    
       
-        st.markdown(""" **Riesgo /2** : Toyota Corolla, Toyota Caldina, Toyota Sprinter, Toyota Probox, Toyota Succeed,
+        st.markdown(""" **Riesgo /2** : Toyota Caldina, Toyota Sprinter, Toyota Probox, Toyota Succeed,
                     Nissan AD, Nissan AD Van, Nissan AD Wagon, Nissan Wingroad, Nissan Avenir, Mazda Familia,
                     Mitsubishi Libero y todos los modelos no disponibles en el catalogo vigente. """)    
 
