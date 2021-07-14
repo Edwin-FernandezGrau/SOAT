@@ -140,26 +140,5 @@ def main():
         st.markdown(""" ** No Riesgo /5**: Ducati, Harley Davidson, BMW, Triumph, Vespa, KTM """) 
         
         st.markdown(""" **Riesgo /6** : las marcas y modelos Hyundai H100, Kia K2700 y  Chevrolet N300 Work. 
-                    Estas son consideradas Baranda o No Baranda """)
-        st.markdown(""" ... """)
-        
-        st.sidebar.header('')
-        st.sidebar.header('')
-        st.sidebar.header('')
-        st.sidebar.header('')
-        st.sidebar.header('')
-        st.sidebar.header('')
-        st.sidebar.header('')
-        st.sidebar.header('')
-        col1,col2,col3 = st.beta_columns(3)             
-        col3.info(
-            """  Developed by
-                [Edwin Fernández Grau](https://linkedin.com/in/edwin-fernandez-grau).""")
-                
-        st.sidebar.info(
-      """  Developed by
-                [Edwin Fernández Grau](https://twitter.com/Ed_FernandezG).""")
+                    Estas son consideradas Baranda o No Baranda """)  
 main()        
-
-
-
